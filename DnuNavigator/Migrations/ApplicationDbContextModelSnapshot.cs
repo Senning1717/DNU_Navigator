@@ -71,6 +71,9 @@ namespace DnuNavigator.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("MaterialLink")
                         .HasColumnType("nvarchar(max)");
 

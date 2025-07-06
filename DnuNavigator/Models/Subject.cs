@@ -14,9 +14,12 @@ namespace DnuNavigator.Models
         public int Credits { get; set; }
         public string? Description { get; set; }
 
-        // ✅ Thêm thuộc tính mới
+        // ✅ Thêm link tài liệu và video
         public string? MaterialLink { get; set; }
         public string? VideoLink { get; set; }
+
+        // ✅ Thêm mới: ảnh đại diện cho học phần
+        public string? ImageUrl { get; set; }
 
         public ICollection<StudentSubject> StudentSubjects { get; set; }
     }

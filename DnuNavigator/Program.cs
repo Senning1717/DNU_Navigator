@@ -18,6 +18,7 @@ builder.Services.AddSession(options =>
 
 // 3. Đăng ký MVC
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor(); 
 
 var app = builder.Build();
 

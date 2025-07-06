@@ -9,8 +9,15 @@
     <div class="card shadow-lg">
         <div class="row g-0">
             <div class="col-md-5">
-                <img src="https://source.unsplash.com/600x400/?education,@Model.SubjectName"
-                     class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="@Model.SubjectName" />
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="@Model.SubjectName" />
+                }
+                else
+                {
+                    <img src="https://source.unsplash.com/600x400/?education,@Model.SubjectName"
+                         class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="@Model.SubjectName" />
+                }
             </div>
             <div class="col-md-7">
                 <div class="card-body">
