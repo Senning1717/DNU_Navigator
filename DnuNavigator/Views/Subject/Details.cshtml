@@ -1,0 +1,47 @@
+@model DnuNavigator.Models.Subject
+@{
+    ViewData["Title"] = "Chi tiết học phần";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var studentId = Context.Session.GetInt32("StudentId") ?? 0;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="https://source.unsplash.com/600x400/?education,@Model.SubjectName"
+                     class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="@Model.SubjectName" />
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <h2 class="card-title text-primary">@Model.SubjectName</h2>
+                    <p><strong>Mã học phần:</strong> @Model.SubjectCode</p>
+                    <p><strong>Số tín chỉ:</strong> @Model.Credits</p>
+                    <p><strong>Mô tả:</strong> @Model.Description</p>
+
+                    @if (!string.IsNullOrEmpty(Model.MaterialLink))
+                    {
+                        <p>
+                            <strong>Tài liệu học phần:</strong>
+                            <a href="@Model.MaterialLink" target="_blank" class="btn btn-outline-primary btn-sm ms-2">
+                                📄 Xem tài liệu
+                            </a>
+                        </p>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.VideoLink))
+                    {
+                        <p>
+                            <strong>Video bài giảng:</strong><br />
+                            <a href="@Model.VideoLink" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                                ▶️ Xem video
+                            </a>
+                        </p>
+                    }
+
+                    <a asp-controller="Student" asp-action="Dashboard" asp-route-id="@studentId" class="btn btn-secondary mt-4">⬅ Quay lại Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary">🎯 Bảng điều khiển Admin - DNU Navigator</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Quản lý học phần -->
+        <div class="col">
+            <div class="card h-100 shadow rounded-4 border-0">
+                <div class="card-body">
+                    <h5 class="card-title">📚 Quản lý học phần</h5>
+                    <p class="card-text">Tạo, chỉnh sửa, xóa và theo dõi danh sách các học phần trong hệ thống.</p>
+                    <a asp-controller="Subject" asp-action="Index" class="btn btn-outline-primary">Truy cập</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quản lý sinh viên -->
+        <div class="col">
+            <div class="card h-100 shadow rounded-4 border-0">
+                <div class="card-body">
+                    <h5 class="card-title">👩‍🎓 Quản lý sinh viên</h5>
+                    <p class="card-text">Xem danh sách, tìm kiếm và quản lý tài khoản sinh viên.</p>
+                    <a asp-controller="Student" asp-action="Index" class="btn btn-outline-primary">Truy cập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

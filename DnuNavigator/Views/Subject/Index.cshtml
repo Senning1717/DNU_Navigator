@@ -1,0 +1,37 @@
+@model List<DnuNavigator.Models.Subject>
+@{
+    ViewData["Title"] = "Danh sách học phần";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>📘 Danh sách học phần</h2>
+    <a asp-action="Create" class="btn btn-success mb-3">+ Thêm học phần</a>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th>Mã môn</th>
+            <th>Tên học phần</th>
+            <th>Số tín chỉ</th>
+            <th>Mô tả</th>
+            <th>Thao tác</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.SubjectCode</td>
+                <td>@item.SubjectName</td>
+                <td>@item.Credits</td>
+                <td>@item.Description</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc muốn xóa?')">Xóa</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,30 @@
+@model DnuNavigator.Models.Subject
+@{
+    ViewData["Title"] = "Thêm học phần";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>➕ Thêm học phần mới</h2>
+
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label class="form-label">Mã môn</label>
+            <input asp-for="SubjectCode" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Tên học phần</label>
+            <input asp-for="SubjectName" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Số tín chỉ</label>
+            <input asp-for="Credits" type="number" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Mô tả</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Admin Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="login-page d-flex align-items-center justify-content-center login-background" style="min-height: 90vh;">
+    <div class="login-container bg-white p-5 rounded shadow" style="max-width: 400px; width: 100%;">
+        <h2 class="text-center mb-4 text-dark">Admin Login</h2>
+
+        <form method="post" asp-action="AdminLogin">
+            <div class="mb-3">
+                <label for="password" class="form-label">Mật khẩu Admin</label>
+                <input type="password" class="form-control" id="password" name="password" required />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-dark btn-lg">Đăng nhập</button>
+            </div>
+        </form>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="text-danger text-center mt-3">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+    </div>
+</div>

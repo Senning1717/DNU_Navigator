@@ -1,0 +1,92 @@
+@{
+    ViewData["Title"] = "Đăng nhập - DNU Navigator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Giao diện trang đăng nhập sinh viên -->
+<div class="login-page d-flex align-items-center justify-content-center login-background" style="min-height: 90vh;">
+    <div class="login-container bg-white p-5 rounded shadow" style="max-width: 400px; width: 100%;">
+        <h2 class="text-center mb-4 text-primary">Đăng nhập sinh viên</h2>
+
+        <form method="post" asp-action="Login">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email sinh viên</label>
+                <input type="email" class="form-control" id="email" name="email" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" id="password" name="password" required />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-warning btn-lg">Đăng nhập</button>
+            </div>
+        </form>
+
+        <!-- Quên mật khẩu mở popup -->
+        <div class="text-center mt-3">
+            <a href="#" class="text-muted" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">
+                Quên mật khẩu?
+            </a>
+        </div>
+
+        <!-- Link chuyển sang trang đăng ký -->
+        <div class="text-center mt-2">
+            <a asp-action="Register" class="btn btn-link">Chưa có tài khoản? Đăng ký</a>
+        </div>
+
+        <!-- Link chuyển sang trang đăng nhập Admin -->
+        <div class="text-center mt-2">
+            <a asp-action="AdminLogin" class="btn btn-outline-secondary btn-sm">Đăng nhập với tư cách Admin</a>
+        </div>
+
+        <!-- Hiển thị lỗi nếu có -->
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger mt-3 text-center">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Modal popup quên mật khẩu -->
+<div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-3 rounded-4">
+            <div class="modal-header">
+                <h5 class="modal-title" id="forgotPasswordModalLabel">Quên mật khẩu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body">
+                <form id="forgotPasswordForm">
+                    <div class="mb-3">
+                        <label for="forgotEmail" class="form-label">Email sinh viên</label>
+                        <input type="email" class="form-control" id="forgotEmail" required />
+                    </div>
+
+                    <div class="mb-3 d-flex align-items-center">
+                        <input type="text" class="form-control me-2" id="verifyCode" placeholder="Nhập mã xác nhận" required />
+                        <button type="button" class="btn btn-outline-primary" onclick="fakeInteraction()">Gửi mã</button>
+                    </div>
+
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-primary">Xác nhận</button>
+                        <button type="button" class="btn btn-secondary ms-2" data-bs-dismiss="modal">Huỷ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script giả lập gửi mã -->
+<script>
+    function fakeInteraction() {
+        alert("Đã gửi mã xác nhận!");
+    }
+</script>

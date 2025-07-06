@@ -1,0 +1,97 @@
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\appsettings.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.staticwebassets.runtime.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.staticwebassets.endpoints.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.exe
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.deps.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.runtimeconfig.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.dll
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\bin\Debug\net9.0\DNU Navigator.pdb
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.AssemblyInfo.cs
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.RazorAssemblyInfo.cs
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\scopedcss\bundle\DNU Navigator.styles.css
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\scopedcss\projectbundle\DNU Navigator.bundle.scp.css
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\v6wmlq18zo-61n19gt1b8.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\8bpd865hhc-xtxxf3hu2r.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\2jd1rnq9h2-t1cqhe9u97.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\tlqksx2gps-c2jlpeoesf.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\yr5hppm8vy-sejl45xvog.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\x3d59piuz7-aexeepp0ev.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\sqz0yv9t1k-xvp3kq03qx.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\nu9kk6mhfg-ausgxo2sd3.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\93flm39ctx-22vffe00uq.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\6epfoh3eu8-cosvhxvwiu.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\wf4mdey35f-qesaa3a1fm.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\dr9fjquob0-fvhpjtyr6v.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\7h3qz0l39h-tmc1g35s3z.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\dwkqcegc2t-fsbi9cje9m.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\2g00npd6mb-rxsg74s51o.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\nvx61uktst-ee0r1s7dh0.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\78l4wr2i7p-q9ht133ko3.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\6grsusc4t2-jd9uben2k1.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\lrd07yhzwe-gye83jo8yx.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\pmhnbp5quc-r4e9w2rdcm.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\jskmlxze3b-wl58j5mj3v.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\4iswhw1dka-c2oey78nd0.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\xeqfsb3x47-d4r6k3f320.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\qandbnypsh-j5mq2jizvt.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\detg5gi83o-keugtjm085.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\ez0sa30shb-nvvlpmu67g.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\6zlih3jolk-zub09dkrxp.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\jte419mow1-pj5nd1wqec.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\4w0cn91k46-43atpzeawx.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\dz727egpvj-v0zj4ognzu.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\ezm24zucta-ynyaa8k90p.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\jl4ssjjkbr-hrwsygsryq.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\7lrvgf4dtz-c63t5i9ira.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\t5cxpxa53w-ft3s53vfgj.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\fysfno23c9-4094rpi4f9.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\rdifuhroum-6pdc2jztkx.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\wdsh24wfai-hd3gran6i8.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\acqfi2x374-iovd86k7lj.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\kizlkblp9n-ltid2c489k.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\qss22upwxw-kbrnm935zg.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\3i4llct7k5-8vyfqsqgz1.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\zr092fzs6w-y7v9cxd14o.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\l8oz4p8umj-u9q1upor1n.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\jebpd6y0cx-h1s4sie4z3.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\htrxwrv362-4d85u1mtcx.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\4k0zd5io7m-0j3bgjxly4.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\1ix8xhbm4v-03hjc8e09r.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\fiqfpx4bjc-48y08845bh.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\4jaslvfcqf-356vix0kms.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\np9v4b9x48-83jwlth58m.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\g3b9nc7cr8-mrlpezrjn3.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\kumfj5qsnw-worgj0nhwm.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\cvfsv9vdqg-gk0pw8i4co.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\kdwd4vfuuu-x0q3zqp4vz.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\ui4hdfe407-d6nrnj6jjx.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\ypk67l7ko3-m9qm4tazc0.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\anjwe4bqtp-ttgo8qnofa.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\55o9v4f84r-jjsuc0puko.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\8l07rht6ar-9vr69e8ynj.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\iht1wialhy-87fc7y1x7t.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\bpyl99q7nb-mlv21k5csn.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\ndi69cv7rs-72lczsyl3y.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\pl0aj1cabl-72lczsyl3y.gz
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets\msbuild.DNU Navigator.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets\msbuild.DNU Navigator.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets\msbuild.build.DNU Navigator.props
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.DNU Navigator.props
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.DNU Navigator.props
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.dll
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\refint\DNU Navigator.dll
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.pdb
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\DNU Navigator.genruntimeconfig.cache
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\ref\DNU Navigator.dll
+C:\Users\PC\Desktop\class\Front_End\DNU Navigator\DNU Navigator\obj\Debug\net9.0\compressed\ypd1yp6peo-ev62qydue6.gz

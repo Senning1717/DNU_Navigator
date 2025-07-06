@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('/images/index_theme.png') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hero .container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: #333;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.login-page {
+  min-height: 100vh;
+  background: url('/images/login_theme.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  padding: 2rem;
+}
+
+.login-container {
+  max-width: 420px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 1rem;
+}
+
+@media (max-width: 576px) {
+  .login-container {
+    padding: 2rem 1rem;
+  }
+}
+

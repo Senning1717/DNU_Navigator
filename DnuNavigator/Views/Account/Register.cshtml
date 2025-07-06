@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Đăng ký - DNU Navigator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="login-page d-flex align-items-center justify-content-center login-background" style="min-height: 90vh;">
+    <div class="login-container bg-white p-5 rounded shadow" style="max-width: 400px; width: 100%;">
+        <h2 class="text-center mb-4 text-success">Đăng ký tài khoản</h2>
+
+        <form method="post" asp-action="Register">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email sinh viên</label>
+                <input type="email" class="form-control" id="email" name="email" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" id="password" name="password" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success btn-lg">Đăng ký</button>
+            </div>
+        </form>
+
+        <div class="text-center mt-3">
+            <a asp-action="Login" class="btn btn-link text-muted">Quay lại đăng nhập</a>
+        </div>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger mt-3">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+    </div>
+</div>

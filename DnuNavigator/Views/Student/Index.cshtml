@@ -1,0 +1,40 @@
+@model List<DnuNavigator.Models.Student>
+@{
+    ViewData["Title"] = "Quản lý sinh viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>👩‍🎓 Quản lý sinh viên</h2>
+
+    <form method="get" class="mb-3 d-flex">
+        <input type="text" name="search" class="form-control me-2" placeholder="Tìm kiếm theo email..." />
+        <button class="btn btn-primary">Tìm</button>
+    </form>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Mật khẩu (hash)</th>
+            <th>Hành động</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Email</td>
+                <td>@s.PasswordHash</td>
+                <td>
+                    <form asp-action="Delete" method="post" asp-route-id="@s.Id" onsubmit="return confirm('Xác nhận xoá sinh viên?')">
+                        <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
